@@ -1,0 +1,13 @@
+dog
+boat
+cow
+bear
+horse
+scissors
+umbrella
+car
+bird
+clock
+elephant
+cat
+sheep
