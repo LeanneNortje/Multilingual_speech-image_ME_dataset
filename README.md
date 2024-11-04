@@ -1,4 +1,6 @@
-Before you get started download the following speech and image datasets at the links provided. Make sure to extract the datasets to have the correct structure or change the code accordingly.
+Before you get started download the following speech and image datasets at the links provided. Make sure to extract the datasets to have the correct structure or change the code accordingly. Where explicit instructions aren't given, it means the downloaded file is already in the correct structure and the dataset folder can just be extracted from the downloaded file.
+
+DISCLAIMER: In some instances, the datasets are updated and some speakers' samples may be ommited for privacy reasons. This means the amount of samples and availability of some classes may vary. 
 
 # Image datasets:
 * ## Caltech-101
@@ -91,7 +93,7 @@ Download the LibriSpeech corpus [here](https://www.openslr.org/12) and specifica
 - [ ] ```test-clean.tar.gz```
 - [ ] ```test-other.tar.gz```
 
-Extract all these in a MSCOCO folder named ```<any name for the LibriSpeech corpus folder>``` so that your dataset directory looks like this:
+Extract all these in a folder named ```<any name for the LibriSpeech corpus folder>``` so that your dataset directory looks like this:
 
 ```bash
 ├── <any name for the LibriSpeech corpus folder>
@@ -105,6 +107,18 @@ Extract all these in a MSCOCO folder named ```<any name for the LibriSpeech corp
 ```
 To get forced alignments required for testing, use the [Montreal forced aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/). 
 Or simply use the words.txt file in the releases and paste it in the ```<any name for the LibriSpeech corpus folder>``` folder.
+
+* ## Multilingual Librispeech
+
+  Download the Dutch and French corpusses [here](https://www.openslr.org/94/).
+
+* ## Corpus Gesproken Nederlands (CGN)
+
+  Download it [here](https://taalmaterialen.ivdnt.org/download/tstc-corpus-gesproken-nederlands/).
+
+* ## Common voice
+
+Download the Dutch and French corpusses [here](https://commonvoice.mozilla.org/en/datasets).
 
 # Dataset generation
 
