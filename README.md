@@ -2,7 +2,7 @@ Before you get started download the following speech and image datasets at the l
 
 # Image datasets:
 * ## Caltech-101
-  
+
   [Download](https://data.caltech.edu/records/mzrjq-6wc02)
   
   Structure:
